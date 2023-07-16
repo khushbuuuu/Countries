@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="./script.js" defer></script>
+    <title>Countries</title>
+  </head>
+  <body>
+    <header>
+      <div class="heading">Where in the world?</div>
+      <div>Dark Mode</div>
+    </header>
+    <main>
+      <div class="search-and-filters">
+        <div class="search">
+          <input placeholder="Search for a country" />
+        </div>
+        <div class="filter">
+          <select name="pets" id="pet-select">
+            <option value="">Filter By Region</option>
+            <option value="dog">Africa</option>
+            <option value="cat">America</option>
+            <option value="hamster">Asia</option>
+            <option value="parrot">Europe</option>
+            <option value="spider">Oceania</option>
+          </select>
+        </div>
+      </div>
+      <div class="countries" id="countries"></div>
+    </main>
+  </body>
 </html>
